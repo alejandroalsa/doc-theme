@@ -1,0 +1,88 @@
+site_name: Time Control
+site_url: https://apps.alejandroalsa.es/proyectos/time-control/web/
+site_author: DIWES | Alejandro Alfaro Sanchez
+site_description: >-
+  Obtén un control horario en tu empresa con TimeControl. Nunca ha sido tan sencillo y práctico tener una APP Web responsive para el control horario de tus empleados.
+copyright: Copyright &copy; 2022 - 2023 DIWES
+
+nav:
+    - Inicio: index.md
+    - Bases de Datos: base-datos.md
+    - Contacto: contacto.md
+    - Desarrolladores: desarrolladores.md
+    - Descargar: descargar.md
+    - Estructura: estructura.md
+    - Funciones: funciones.md
+    - Guia de Uso: guia-uso.md
+    - Instalacion: instalacion.md
+    - Preguntas Frecuentes: preguntas-frecuentes.md
+    - Seguridad: seguridad.md
+    - Tecnologias: tecnologias.md
+    - Variables: variables.md
+
+theme: 
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/logo.png
+  logo: assets/logo.png
+  language: es
+
+  features:
+    - content.code.copy
+    - content.code.annotate 
+  
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://diwes.es.
+    - icon: material/web
+      link: https://diwes.es.
+    - icon: fontawesome/brands/twitter
+      link: https://diwes.es.
+    - icon: fontawesome/brands/docker
+      link: https://diwes.es.
+    - icon: fontawesome/brands/instagram
+      link: https://diwes.es.
+    - icon: fontawesome/brands/linkedin
+      link: https://diwes.es.
+    - icon: fontawesome/brands/dev
+      link: https://diwes.es.
+
+plugins:
+  - search:
+      lang: es
+  - social:
+      cards_color:
+        fill: "#0FF1CE" 
+        text: "#FFFFFF"
